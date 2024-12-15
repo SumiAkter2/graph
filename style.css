@@ -1,0 +1,56 @@
+/* General body styling */
+body {
+    background-color: #0d0d11;
+    color: white;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    /* padding: 20px; */
+    display: flex;
+    justify-content: center;
+}
+
+/* Chart container */
+.chart-container {
+    background-color: #16161a;
+    border-radius: 10px;
+    padding: 20px;
+    width: 700px;
+    height: 200px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
+}
+
+/* Header styling */
+.chart-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.chart-header h3 {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+/* Buttons for time range */
+.chart-controls {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.chart-controls button {
+    background-color: #1e1e2d;
+    border: none;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.chart-controls button.active {
+    background-color: #2f49e0;
+    color: white;
+    font-weight: bold;
+}
